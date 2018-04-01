@@ -38,7 +38,7 @@
       <h2>Repositories</h2>
         <div class="panel-body" *ngFor="let repo of repos; let i = index">
 
-          <span class="repos"><p id="{{i}}" appStrikethrough>{{repo.name}}</p></span>
+          <span class="repos"><p id="{{i}}" appStrikethrough>{{repo.name | capitalize}}</p></span>
         </div>
       </div>
     </div>

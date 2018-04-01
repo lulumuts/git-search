@@ -10,7 +10,7 @@ export class GitService {
   constructor(private http:Http) {
     console.log("service is now ready");
     this.username = '';
-    this.name='Anitas-Kitchen';
+    // this.name='Anitas-Kitchen';
   }
   getUserInfo(){
     return this.http.get("https://api.github.com/users/" + this.username+"?/access_token/=" + environment.access_token)
@@ -24,9 +24,10 @@ export class GitService {
   updateProfile(username:string){
     this.username = username;
   }
+}
 
   // getRepo(){
   //   return this.http.get("https://api.github.com/repos/" + this.username + this.name +"?/access_token=" + environment.access_token
   //   .map(res => res.json()));
-
-  }
+  //
+  // }
