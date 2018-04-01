@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body{
+  background-image: url("./assets/Minimalism-2.jpg");
+  background-size: cover;
+  background-repeat: none;
+}
+h1{
+  color:white;
+  font-family: 'Abel', sans-serif;
+  font-size: 5em;
+}
