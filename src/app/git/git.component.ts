@@ -1,7 +1,9 @@
-import { Component, OnInit} from '@angular/core';
+import { Component, OnInit,HostListener} from '@angular/core';
 import {GitService} from '../git.service';
 import {User} from '../user'
 import {Repo} from '../repo'
+import { environment } from '../../environments/environment';
+// import { CapitalizePipe } from './capitalize.pipe';
 
 
 @Component({

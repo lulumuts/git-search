@@ -4,6 +4,7 @@ import {FormsModule} from '@angular/forms';
 import {GitService} from './git.service';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes} from '@angular/router';
+
 //Defining Routes
 // const routes:Routes=[
 // {path:"repos",component:GitComponent}
